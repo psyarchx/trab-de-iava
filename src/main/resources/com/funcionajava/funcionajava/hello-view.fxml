@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER_LEFT" prefHeight="612.0" prefWidth="614.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.funcionajava.funcionajava.HelloController">
+  <padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+  </padding>
+
+  <Label fx:id="welcomeText" prefHeight="66.0" prefWidth="418.0" text="Bem-vindo ao meu site" textAlignment="JUSTIFY">
+      <font>
+         <Font name="System Bold" size="38.0" />
+      </font></Label>
+  <Label text="Este é um parágrafo de exemplo.">
+      <font>
+         <Font size="16.0" />
+      </font></Label>
+  <Button onAction="#onHelloButtonClick" text="Clique Aqui" />
+   <Label text="Seção importante">
+      <font>
+         <Font name="System Bold" size="26.0" />
+      </font></Label>
+   <Label text="Está é uma seção de conteúdo relevante.">
+      <font>
+         <Font size="16.0" />
+      </font></Label>
+   <ImageView fitHeight="285.0" fitWidth="362.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../../../media/marca.png" />
+      </image>
+   </ImageView>
+<!--  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">-->
+<!--    &lt;!&ndash; Definir a imagem usando o resource path &ndash;&gt;-->
+<!--    <image>-->
+<!--      <Image url="./src/main/resources/media/marca.png" />-->
+<!--    </image>-->
+<!--  </ImageView>-->
+</VBox>
